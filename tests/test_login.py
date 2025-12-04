@@ -8,7 +8,7 @@ from pathlib import Path
 def driver():
     driver = get_driver()
     yield driver
-   # driver.quit()
+    driver.quit()
 
 @pytest.fixture
 def testdata():

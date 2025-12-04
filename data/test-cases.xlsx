@@ -1,0 +1,4 @@
+Test ID	Scenario	Steps	Expected Result	Actual Result	Status
+TC01	Valid Login	1) Open URL                                        2) Enter valid email/password        3) Click Login	User successfully navigates to Dashboard	As Expected	PASS
+TC02	Invalid Email	1) Enter invalid email                              2) valid password                                3) Click Login	Error message: Invalid email or password	Failed to get student appear	PASS
+TC03	Invalid Password	1) Enter valid email                            2) wrong password                               3) Login	Error message: Invalid email or password	Invalid Credentials appear	PASS

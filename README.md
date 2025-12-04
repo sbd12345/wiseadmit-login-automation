@@ -65,7 +65,7 @@ project/
 │── data/
 │   ├── testdata.yaml
 │
-│── TestCases.xlsx
+│
 │── README.md
 │── requirements.txt
 
@@ -86,3 +86,17 @@ project/
 
 # Test Cases (excel)
 1) Test Case sheet
+Test cases are maintained in the Excel sheet:
+[data/test-cases.xlsx](./data/test-cases.xlsx)
+
+
+# Prerequisites
+- Python 3.10+
+- Git
+- Google Chrome 
+- ChromeDriver (managed automatically via webdriver-manager)
+
+# Submission Notes
+- Repository: https://github.com/sbd12345/wiseadmit-login-automation
+- Ensure credentials are never hardcoded in test scripts.
+- HTML test report is available in report/test_login_report.html.
